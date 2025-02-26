@@ -8,6 +8,7 @@ namespace API5.Models
         public string Name { get; set; }
         public decimal Price { get; set; }
         public int CategoryId { get; set; }
+        public string? ImageUrl { get; set; }
 
         // Khóa ngoại liên kết với Category
         [JsonIgnore]
